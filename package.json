@@ -1,0 +1,31 @@
+{
+  "name": "chessmates-stresstest",
+  "version": "1.0.0",
+  "description": "A stress test for the Chess Mates server.",
+  "main": "run.js",
+  "scripts": {
+    "test": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-c/chessmates-stresstest.git"
+  },
+  "keywords": [
+    "chess",
+    "mates",
+    "chess mates",
+    "server",
+    "test",
+    "stress test",
+  ],
+  "author": "Chess Mates authors (http://cm-sweserver.rhcloud.com/)",
+  "bugs": {
+    "url": "https://github.com/alex-c/chessmates-stresstest/issues"
+  },
+  "homepage": "https://github.com/alex-c/chessmates-stresstest#readme",
+  "dependencies": {
+    "chess.js": "^0.10.2",
+    "config": "^1.24.0",
+    "request-promise": "^4.1.1"
+  }
+}
